@@ -1,4 +1,4 @@
 DOCKER ?= docker
 
 image:
-	$(DOCKER) build -t whilp/ssh-agent:latest -f Dockerfile .
+	$(DOCKER) build -t ssh-agent -f Dockerfile .
